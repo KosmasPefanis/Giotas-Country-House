@@ -214,71 +214,74 @@ nav{
 #Highlights{
     position:relative;
     background-color: rgba(142,231,255,255);
-    height:900px;
+    height:61.05vw;
 }
 .HighlightsContent{
 position:absolute;
 width:20%;
-top:120px;
-left:15%;
+top:13.8%;
+left:13%;
+}
+.HighlightsContent p {
+    color: rgb( 150, 111, 51);
 }
 .image1{
 position:absolute;
 width:25%;
-top:400px;
+top:44.9%;
 }
 .image2{
 position:absolute;
 width:15%;
-top:280px;
+top:31.6%;
 left:27%;
 }
 .image3{
 position:absolute;
 width:20%;
-top:600px;
+top:67%;
 left:27%;
 }
 .image4{
 position:absolute;
 width:15%;
-top:407px;
+top:45.7%;
 left:44%;
 }
 .image5{
 position:absolute;
 width:15%;
-top:600px;
+top:67%;
 left:49%;
 }
 .image6{
 position:absolute;
 width:18%;
-top:180px;
+top:20.5%;
 left:44%;
 }
 .image7{
     position:absolute;
     width:15%;
-    top:407px;
+    top:45.7%;
     left:61%;
 }
 .image8{
     position:absolute;
     width:18%;
-    top:180px;
+    top:20.5%;
     left:64%;
 }
 .image9{
     position:absolute;
     width:15%;
-    top:0px;
+    top:0;
     left:80%;
 }
 .image10{
     position:absolute;
     width:15%;
-    top:180px;
+    top:20.5%;
     left:84%;
 }
 
