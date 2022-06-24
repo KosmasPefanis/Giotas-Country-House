@@ -8,7 +8,7 @@ body{
 }
 /* landing div */
 .landing{
-    background-image: url(../images/landingBackgroundGradient.webp);
+    background-image: url(../images/landingBackgroundGradient.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
