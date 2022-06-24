@@ -33,6 +33,9 @@ nav{
     margin-top:10px;
     margin-left:10px;
 }
+.logo:hover{
+    cursor: pointer;
+}
 .navUl1 {
     display:flex;
 }
@@ -43,12 +46,11 @@ nav{
     padding-bottom:15px;
 }
 .navUl1 div:hover {
+    cursor: pointer;
     border-top:3px solid rgb( 150, 111, 51);;
     padding-top:12px;
     color:rgb(51, 66, 69);
     transition: color 0.3s, border-top 0.2s,padding-top 0.2s ;
-    
-
 }
 .navUl2 {
     display:flex;
@@ -102,6 +104,7 @@ nav{
     background-color: rgb( 150, 111, 51);
     color:white;
     transition:background-color 1s, color 1s;
+    cursor: pointer;
 }
 .landingContent h1{
     font-size:4rem;
@@ -144,50 +147,7 @@ nav{
 .actionsBtn:hover {
     background-color:rgb( 150, 111, 51);
     transition: background-color 1s;
-}
-
-/* Statistics */
-
-.statistics {
-    padding:20px 15% 20px 15%;
-    display:grid;
-    grid-template-columns:repeat(3 , 1fr);
-    grid-template-rows: repeat(3, 1fr);
-}
-.statistics div h2{
-    font-size:4rem;
-    margin-bottom:0px;
-    color:rgb( 150, 111, 51);
-    text-shadow:
-    0 0 7px rgb( 150, 111, 51),
-    0 0 10px rgb(255, 197, 111),
-    0 0 21px rgb(255, 197, 111),
-    0 0 42px rgb(255, 197, 111),
-    0 0 82px rgb(255, 197, 111),
-    0 0 92px rgb(255, 197, 111),
-    0 0 102px rgb(255, 197, 111);
-}
-.statistics div{
-    color:black;
-    text-align:center;
-}
-.statistics div p{
-    font-size:0.8rem;
-    margin-top:0px;
-}
-.statYears{
-    grid-column: 1 / span 1; 
-    grid-row: 1 / span 1;
-    padding-bottom:10px;
-}
-.statGuests{
-    grid-column: 2 / span 1; 
-    grid-row: 2 / span 1;
-    padding-bottom:10px;
-}
-.statHosts{
-    grid-column: 3 / span 1; 
-    grid-row: 3 / span 1;
+    cursor: pointer;
 }
 /* hosts */
 #Hosts{
@@ -284,4 +244,47 @@ left:44%;
     top:20.5%;
     left:84%;
 }
+/* talk to us */
+#TalkToUs{
+    margin-left:15%;
+    margin-right:15%;
+}
+#TalkToUs img {
+    display:inline-block;
+    width:20%;
+    cursor: pointer;
+}
+#TalkToUs .talkToUsContent{
+    display:inline-block;
+    vertical-align:top;
+    padding-top:2%;
+    margin-left:10%;
+}
 
+/* footer */
+
+.footerContent{
+    background-image: url(../images/footerBeachGradient.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding:30px 0px;
+    z-index:200;
+    width:100%;
+}
+.mapouter{
+    margin-left:6%;
+    margin:60px 6% 60px 3%;
+    display:inline-block;
+}
+.contactInfo{
+    backdrop-filter: blur(3px);
+    font-size:1.2rem;
+    display:inline-block;
+    vertical-align:top;
+    margin-top:60px;
+    width:20%;
+}
+
+.contactInfo h3 {
+    color:white;
+}
