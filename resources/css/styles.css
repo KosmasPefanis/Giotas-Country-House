@@ -57,6 +57,7 @@ nav{
     transition: color 0.3s, border-top 0.2s,padding-top 0.2s ;
 }
 .navUl2 {
+    cursor: pointer;
     display:flex;
     flex-direction:row
 }
@@ -257,6 +258,9 @@ left:44%;
 #TalkToUs h2 {
     display:inline-block;
 }
+#TalkToUs p {
+    color:rgb( 150, 111, 51);
+}
 #TalkToUs img {
     vertical-align:middle;
     margin-left:15px;
@@ -297,4 +301,20 @@ left:44%;
 
 .contactInfo h3 {
     color:white;
+}
+
+#dropdownLang{
+    cursor: pointer;
+    flex-direction:column;
+    position:absolute;
+    right:0.5%;
+    backdrop-filter: blur(6px);
+    width:60px;
+    align-items:center;
+    top:54px;
+    border: solid white 2px;
+}
+#dropdownLang img{
+    width:20px;
+    padding:5px;
 }
