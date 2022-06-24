@@ -2,6 +2,10 @@ body{
     margin:0;
     padding:0;
 }
+.divider {
+    height:60px;
+    background-color:rgba(142,231,255,255);
+}
 /* landing div */
 .landing{
     background-image: url(../images/landingBackgroundGradient.webp);
@@ -39,7 +43,7 @@ nav{
     padding-bottom:15px;
 }
 .navUl1 div:hover {
-    border-top:3px solid cyan;
+    border-top:3px solid rgb( 150, 111, 51);;
     padding-top:12px;
     color:rgb(51, 66, 69);
     transition: color 0.3s, border-top 0.2s,padding-top 0.2s ;
@@ -95,8 +99,9 @@ nav{
     width:fit-content
 }
 .bookBtn:hover {
-    background-color: rgb(153, 245, 255);
-    transition:background-color 1s;
+    background-color: rgb( 150, 111, 51);
+    color:white;
+    transition:background-color 1s, color 1s;
 }
 .landingContent h1{
     font-size:4rem;
@@ -106,7 +111,6 @@ nav{
 /* Main Content */
 .mainContent{
     background-color:rgba(142,231,255,255);
-    padding:20px 0px;
 }
 /* Who We Are */
 #whoWeAre{
@@ -124,7 +128,10 @@ nav{
     width:40%;
     vertical-align:top;
     display:inline-block;
-    color:rgb(45, 44, 44);
+    color: rgb( 150, 111, 51);
+}
+.whoWeAreContent h2{
+    color:black;
 }
 
 .actionsBtn {
@@ -135,27 +142,51 @@ nav{
     width:fit-content
 }
 .actionsBtn:hover {
-    background-color:rgb(48, 88, 84);
+    background-color:rgb( 150, 111, 51);
     transition: background-color 1s;
 }
 
 /* Statistics */
 
 .statistics {
-    padding:10px 0;
+    padding:20px 15% 20px 15%;
     display:grid;
     grid-template-columns:repeat(3 , 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
-.statistics:nth-child(1){
+.statistics div h2{
+    font-size:4rem;
+    margin-bottom:0px;
+    color:rgb( 150, 111, 51);
+    text-shadow:
+    0 0 7px rgb( 150, 111, 51),
+    0 0 10px rgb(255, 197, 111),
+    0 0 21px rgb(255, 197, 111),
+    0 0 42px rgb(255, 197, 111),
+    0 0 82px rgb(255, 197, 111),
+    0 0 92px rgb(255, 197, 111),
+    0 0 102px rgb(255, 197, 111);
+}
+.statistics div{
+    color:black;
+    text-align:center;
+}
+.statistics div p{
+    font-size:0.8rem;
+    margin-top:0px;
+}
+.statYears{
     grid-column: 1 / span 1; 
     grid-row: 1 / span 1;
+    padding-bottom:10px;
 }
-.statistics:nth-child(2){
+.statGuests{
     grid-column: 2 / span 1; 
     grid-row: 2 / span 1;
+    padding-bottom:10px;
 }
-.statistics:nth-child(3){
+.statHosts{
     grid-column: 3 / span 1; 
     grid-row: 3 / span 1;
+    padding-bottom:10px;
 }
