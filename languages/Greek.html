@@ -15,10 +15,43 @@
       <div class="navUl1">
         <div onclick="location='#WhoWeArediv'">Ποιοί Είμαστε</div>
         <div onclick="location='#Hostsdiv'">Οι Οικοδεσπότες</div>
-        <div onclick="location='#HighlightsDiv'">Καλύτερες Στιγμές</div>
+        <div onclick="location='#HighlightsDiv'">Στιγμιότυπα</div>
         <div onclick="location='#TalkToUsDiv'">Επικοινώνησε μαζί μας</div>
         <div onclick="location='#FooterDiv'">Παραπάνω Πληροφορίες</div>
       </div>
+      <div class="dotsBody">
+        <div class="dots" onclick="this.classList.toggle('active');">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="shadow cut"></div>
+          <div class="container cut">
+            <div class="drop cut2"></div>
+          </div>
+          <div class="list">
+            <ul>
+              <li>
+                Ποιοί Είμαστε
+              </li>
+              <li>
+                Οι Οικοδεσπότες
+              </li>
+              <li>
+                Στιγμιότυπα
+              </li>
+              <li>
+                Επικοινώνησε μαζί μας
+              </li>
+              <li>
+                Παραπάνω Πληροφορίες
+              </li>
+            </ul>
+          </div>
+          <div class="dot"></div>
+        </div>
+        <div class="cursor"
+             onclick="document.querySelector('.dots').classList.toggle('active');"></div>
+            </div>
+             
       <div class="navUl2" onclick=changeDisplay()>
       <img src="../resources/images/GREECEflag.png" alt="flag"><p>⮟</p>
       </div>
@@ -26,11 +59,13 @@
         <div><a href="../index.html"><img src="../resources/images/USAflag.png" alt="flag"></a></div>
       </div>
       <script type="text/javascript" src="../resources/main.js"></script>
+
+      
     </nav>
     <div class="landingGrid">
       <div class="landingContent">
           <div>
-            <p><em>Η Καλύτερες στιγμές των διακοπών</em></p>
+            <p><em>Οι Καλύτερες στιγμές των διακοπών</em></p>
             <h1><em>Giota's Country House</em></h1>
             <div class="bookBtn" onclick="location.href ='https://www.airbnb.com/rooms/20017438?source_impression_id=p3_1656080211_8dn56A9QsD2inqa8'">Εύρεση Ημερομηνιών ►</div>
           </div>
@@ -44,23 +79,20 @@
         <img src="../resources/images/kouzinaCrop.webp"/>
         <div class="whoWeAreContent">
           <h2><em>Ποιοί Είμαστε</em></h2>
-          <p>We will help you enjoy a wonderful vacation with your family or any event in the beautiful village of Varnavas.</p>
-          <p>In the past 5 years we have created beautiful memories for and with people all around the world. Our house is open to everyone who 
-            is looking to have a great time and relax. </p>
-          <p>The venue is situated in Varnavas Village just outside of Athens. Click below to find things nearby to do while enjoying your stay!</p>
-          <div class="actionsBtn">Actions near us  ►</div>
+          <p>Θα σε βοηθήσουμε να περάσεις καταπληκτικές διακοπές μαζί με την οικογένειά σου ή οποιοδήποτε άλλο event στο πανέμορφο χωριό του Βαρνάβα.</p>
+          <p>Τα τελευταία 5 χρόνια έχουμε δημιουργήσει πανέμορφες αναμνήσεις με ανθρώπους από ολόκληρο τον κόσμο. Το σπίτι μας είναι ανοικτό σε όλους όσους αναζητούν να χαλαρώσουν και να περάσουν καλά!</p>
+          <p class="colapsable">Το κατάλυμα βρίσκεται στο χωριό του Βαρνάβα το οποίο βρίσκεται λίγο εκτός Αθηνών. Πάτησε παρακάτω για να αναζητήσεις πράγματα να κάνεις όσο απολαμβάνεις την διαμονή σου!</p>
+          <div class="actionsBtn">Δράσεις κοντά μας  ►</div>
         </div>
       </div>
       <div class="divider" id="Hostsdiv">
       </div>
       <div id="Hosts">
         <div class="hostsContent">
-          <h2><em>Our Hosts</em></h2>
-          <p>We will help you enjoy a wonderful vacation with your family or any event in the beautiful village of Varnavas.</p>
-          <p>In the past 5 years we have created beautiful memories for and with people all around the world. Our house is open to everyone who 
-            is looking to have a great time and relax. </p>
-          <p>The venue is situated in Varnavas Village just outside of Athens. Click below to find things nearby to do while enjoying your stay!</p>
-          <div class="actionsBtn">Actions near us  ►</div>
+          <h2><em>Οι Οικοδεσπότες</em></h2>
+          <p>Αγαπάμε αυτό που κάνουμε. Η ικανοποίησή μας πηγάζει από τα χαμόγελα των επισκεπτών μας!</p>
+          <p>Παρότι μένουμε πάνω από το σπίτι, σεβόμαστε την ιδιωτικότητα των επισκεπτών μας. </p>
+          <p>Είμαστε πάντα διαθέσιμοι για οτιδήποτε μπορεί να χρειαστείτε και πάντα κάνουμε το κάτι παραπάνω για να προσφέρουμε σε όλους μια καταπληκτική εμπειρία</p>
         </div>
         <img src="../resources/images/da213fe4-0548-49de-874c-6c02d0a6df81.webp"/>
       </div>
@@ -70,7 +102,7 @@
       <div id="Highlights">
         <div class="HighlightsContent">
           <h2><em>Highlights</em></h2>
-          <p>Απολαύστε την γαλίνη της φύσης στο Giotas Country House.</p>
+          <p>Απολαύστε την γαλήνη της φύσης στο Giotas Country House.</p>
           <div class="actionsBtn">Παραπάνω φωτογραφίες  ►</div>
         </div>
         <img  class="image1" src="../resources/images/PoolCarousel.webp"/>
@@ -89,7 +121,7 @@
         <!-- <img src="./resources/images/toppng.com-instagram-logo-512x512.png" onclick="location.href ='https://www.instagram.com/giotascountryhouse/'"/> -->
         <div class="talkToUsContent">
           <h2><em>Επικοινώνησε μαζί μας</em> </h2><img src="../resources/images/toppng.com-instagram-logo-512x512.png" onclick="location.href ='https://www.instagram.com/giotascountryhouse/'"/>
-          <p>Feel free to contact us or DM us on our Instagram account.</p>
+          <p>Μπορείτε να μας στείλετε μήνυμα στον λογαριασμό μας στο Instagram.</p>
           <div class="actionsBtn" onclick="location.href='https://www.instagram.com/giotascountryhouse/'">Redirect  ►</div>
         </div>
       </div>
@@ -99,12 +131,12 @@
       <div class="contactInfo">
         <div>
           <h3>Γενικές Πληροφορίες</h3>
-          <p>Τηλέφωνο: (+30) 6909936902</p>
-          <p>email: kosmasamsok03@gmail.com</p>
+          <p>Τηλέφωνο: (+30) 6970052618</p>
+          <p>email: apefanis@gmail.com</p>
           <br>
           <h3>Πληροφορίες Κρατήσεων</h3>
-          <p>Τηλέφωνο: (+30) 6909936902</p>
-          <p>email: kosmasamsok03@gmail.com</p>
+          <p>Τηλέφωνο: (+30) 6970052618</p>
+          <p>email: apefanis@gmail.com</p>
           <br>
           <div class="bookBtn btnfooter" onclick="location.href ='https://www.airbnb.com/rooms/20017438?source_impression_id=p3_1656080211_8dn56A9QsD2inqa8'">Εύρεση Ημερομηνιών  ►</div>
         </div>
