@@ -6,6 +6,10 @@ body{
     height:60px;
     background-color:rgba(142,231,255,255);
 }
+.dividerSmall{
+    height:30px;
+    background-color:rgba(142,231,255,255);
+}
 /* landing div */
 .landing{
     background-image: url(../images/landingBackgroundGradient.jpg);
@@ -245,13 +249,19 @@ left:44%;
     left:84%;
 }
 /* talk to us */
+
 #TalkToUs{
     margin-left:15%;
     margin-right:15%;
 }
-#TalkToUs img {
+#TalkToUs h2 {
     display:inline-block;
-    width:20%;
+}
+#TalkToUs img {
+    vertical-align:middle;
+    margin-left:15px;
+    display:inline-block;
+    width:4%;
     cursor: pointer;
 }
 #TalkToUs .talkToUsContent{
