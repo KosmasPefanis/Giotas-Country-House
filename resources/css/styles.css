@@ -75,7 +75,6 @@ nav{
 
 
 /* landing grid */
-
 .landingGrid{
     width: 100%;
     display:grid;
@@ -474,14 +473,61 @@ left:44%;
         display: flex;
     }
 }
+@media (max-width:1004px){
+    .landing{
+        background-image: url(../images/landingBackgroundGradientMobile.jpg)
+    }
+    .landingGrid{
+        grid-template-columns:repeat(18 , 1fr);
+        grid-template-rows: repeat(6, 1fr);
+      
+    }
+    .landingContent{
+        backdrop-filter: blur(2px);
+        grid-column: 2 / span 12; 
+        grid-row: 3 / span 2;
+}
+}
 
 @media (max-width: 978px){
     .contactInfo{
         width:40%;
     }
-}
-/* @media (max-width: 808px){
-    .contactInfo{
-        flex-direction: row;
+    #whoWeAre{
+        margin-left:10%;
+        margin-right:0;
     }
-} */
+    #whoWeAre img {
+        margin-right:5%;
+    }
+    .whoWeAreContent{
+        width:50%;
+    }
+    #Hosts{
+        margin-right:0%;
+        margin-left:10%;
+    }
+    #Hosts img {
+        margin-right:0%;
+    }
+    .hostsContent{
+        width:40%;
+        margin-right:5%;
+    }
+}
+@media (max-width: 808px){
+    .maprouter{
+        margin-left:20%;
+    }
+    }
+@media (max-width: 942px){
+    .HighlightsContent{
+        width:50%;
+        top:0%;
+        left:8%;
+        }
+        .HighlightsContent h2{
+            margin-bottom:5px;
+            margin-top:0px;
+        }
+}
