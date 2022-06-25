@@ -674,6 +674,7 @@ left:44%;
         width:100%;
         flex-direction: row;
         justify-content: space-around;
+        padding-left: 10%;
     }
     .contactInfo div h3{
         font-size:1.2rem;
@@ -683,5 +684,26 @@ left:44%;
     }
     .footerContent{
         flex-direction: column;
+    }
+}
+@media (max-width:500px){
+    .gmap_canvas { 
+        height:0.6vw;
+        width:0.6vw;
+    }
+    
+    .mapouter{
+        height:0.6vw;
+        width:0.6vw;
+    }
+    .btnfooter{
+        font-size:0.8rem;
+        padding: 5px;
+    }
+    .contactInfo div h3{
+        font-size:1rem;
+    }
+    .contactInfo div p{
+        font-size:0.7rem;
     }
 }
