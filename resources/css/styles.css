@@ -328,11 +328,9 @@ left:44%;
     width:20%;
     display:flex;
     flex-direction: column;
-}
-
-.contactInfo h3 {
     color:white;
 }
+
 
 #dropdownLang{
     cursor: pointer;
@@ -633,7 +631,7 @@ left:44%;
     width: 162.5px;
   }
   .shadow {
-    height: 220px;#
+    height: 220px;
     width: 162.5px;
   }
   .list {
@@ -687,13 +685,14 @@ left:44%;
         grid-row: 3 /span 2;
     }
     .mapouter{
+        margin-right:0;
         margin-left:20%;
     }
     .contactInfo{
         width:100%;
         flex-direction: row;
         justify-content: space-around;
-        padding-left: 10%;
+        padding-left: 0;
     }
     .contactInfo div h3{
         font-size:1.2rem;
@@ -707,13 +706,18 @@ left:44%;
 }
 @media (max-width:500px){
     .gmap_canvas { 
-        height:0.6vw;
-        width:0.6vw;
+        height:216px;
+        width:216px;
     }
-    
+    iframe {
+  height: 216px;
+  width: 216px;
+  resize: both;
+  overflow: auto;
+}
     .mapouter{
-        height:0.6vw;
-        width:0.6vw;
+        height:216px;
+        width:216px;
     }
     .btnfooter{
         font-size:0.8rem;
