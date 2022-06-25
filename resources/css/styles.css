@@ -146,7 +146,7 @@ nav{
     border-radius:1px;
     color:white;
     padding: 10px;
-    width:fit-content
+    width:fit-content;
 }
 .actionsBtn:hover {
     background-color:rgb( 150, 111, 51);
@@ -178,7 +178,7 @@ nav{
 #Highlights{
     position:relative;
     background-color: rgba(142,231,255,255);
-    height:61.05vw;
+    height:59.05vw;
 }
 .HighlightsContent{
 position:absolute;
@@ -258,21 +258,23 @@ left:44%;
 }
 #TalkToUs h2 {
     display:inline-block;
+    margin:0px;
 }
 #TalkToUs p {
     color:rgb( 150, 111, 51);
 }
 #TalkToUs img {
+    cursor: pointer;
     vertical-align:middle;
     margin-left:15px;
     display:inline-block;
-    width:4%;
+    width:1.5rem;
     cursor: pointer;
 }
 #TalkToUs .talkToUsContent{
     display:inline-block;
     vertical-align:top;
-    padding-top:2%;
+    padding-top:2vw;
     margin-left:10%;
 }
 
@@ -464,6 +466,29 @@ left:44%;
         font-size:0.8rem;
     }
 }
+@media (max-width: 1055px){
+    .landing{
+        background-image: url(../images/landingBackgroundGradientMobile.jpg)
+    }
+    .landingGrid{
+        grid-template-columns:repeat(10, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+    }
+    .landingContent{
+        grid-column: 2/ span 6;
+    }
+    .landingContent p{
+        font-size:1rem;
+        padding-right:0px;
+}
+.landingContent h1{
+    font-size:2.3rem;
+}
+.bookBtn {
+    padding: 5px;
+    font-size:0.6rem;
+}
+}
 @media (min-width:1039px){
     .dotsBody {
         display: none;
@@ -472,21 +497,6 @@ left:44%;
     .navUl1{
         display: flex;
     }
-}
-@media (max-width:1004px){
-    .landing{
-        background-image: url(../images/landingBackgroundGradientMobile.jpg)
-    }
-    .landingGrid{
-        grid-template-columns:repeat(18 , 1fr);
-        grid-template-rows: repeat(6, 1fr);
-      
-    }
-    .landingContent{
-        backdrop-filter: blur(2px);
-        grid-column: 2 / span 12; 
-        grid-row: 3 / span 2;
-}
 }
 
 @media (max-width: 978px){
@@ -530,4 +540,83 @@ left:44%;
             margin-bottom:5px;
             margin-top:0px;
         }
+}
+@media (max-width: 756px){
+    .landingGrid{
+        grid-template-columns:repeat(10 , 1fr);
+        grid-template-rows: repeat(7, 1fr);
+      
+    }
+    .landingContent{
+        grid-column: 2/ span 6;
+        grid-row: 3/span 2;
+    }
+    .landingContent p{
+        font-size:0.8rem;
+}
+.landingContent h1{
+    font-size:2rem;
+}
+.whoWeAreContent h2{
+    font-size:1.5rem;
+}
+.whoWeAreContent p{
+    font-size:1rem;
+}
+.hostsContent h2{
+    font-size:1.5rem;
+}
+.hostsContent p{
+    font-size:1rem;
+}
+.HighlightsContent  {
+    left:4%;
+}
+.HighlightsContent p{
+    display:none;
+}
+.actionsBtn {
+    font-size:0.8rem;
+    padding: 5px;
+}
+}
+@media(max-width:555px){
+    .logo{
+        font-size:1rem;
+        margin-top:15px;
+    }
+    .landingGrid{
+        grid-template-columns:repeat(10, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+      
+    }
+    .landingContent p{
+        font-size:0.6rem;
+}
+.landingContent h1{
+    font-size:1.8rem;
+}
+.whoWeAreContent h2{
+    font-size:1.2rem;
+}
+.whoWeAreContent p{
+    font-size:0.8rem;
+}
+.hostsContent h2{
+    font-size:1.2rem;
+}
+.hostsContent p{
+    font-size:0.8rem;
+}
+}
+@media (max-width:614px){
+    .landingGrid{
+        grid-template-columns:repeat(10, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+      
+    }
+    .landingContent{
+        grid-column: 2/ span 7;
+        grid-row: 3 /span 2;
+    }
 }
