@@ -572,7 +572,12 @@ left:44%;
         height:300px;
         width:300px;
     }
-    
+    iframe{
+        height:300px;
+        width:300px;
+        resize: both;
+        overflow: auto;
+    }
     .mapouter{
         height:300px;
         width:300px;
@@ -692,7 +697,7 @@ left:44%;
         width:100%;
         flex-direction: row;
         justify-content: space-around;
-        padding-left: 0;
+        padding-left:0px;
     }
     .contactInfo div h3{
         font-size:1.2rem;
@@ -729,4 +734,65 @@ left:44%;
     .contactInfo div p{
         font-size:0.7rem;
     }
+    .whoWeAreContent h2{
+        font-size:1rem;
+    }
+    .whoWeAreContent p{
+        font-size:0.5rem;
+    }
+    .hostsContent h2{
+        font-size:1rem;
+    }
+    .hostsContent p{
+        font-size:0.5rem;
+    }
+    .HighlightsContent  {
+        left:2%;
+    }
+    .HighlightsContent h2{
+        font-size:1rem;
+    }
+    .HighlightsContent p{
+        margin:0 0 3px 0;
+        display:block;
+        font-size:0.5rem;
+    }
+    .actionsBtn {
+        font-size:0.5rem;
+        padding: 3px;
+    }
+    .bookBtn{
+        font-size:0.5rem;
+        padding: 3px;
+    }
+    .btnfooter{
+        font-size:0.5rem;
+        padding: 3px;
+    }
+    .landingContent p{
+        font-size:0.4rem;
+}
+    .landingContent h1{
+    font-size:1.5rem;
+}
+
+#TalkToUs{
+
+}
+#TalkToUs h2 {
+    font-size:1rem;
+}
+#TalkToUs p {
+    font-size:0.5rem;
+}
+#TalkToUs img {
+    width:1.5rem;
+}
+#TalkToUs .talkToUsContent{
+    display:inline-block;
+    vertical-align:top;
+    padding-top:2vw;
+    margin-left:10%;
+}
+
 }
