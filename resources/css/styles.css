@@ -30,7 +30,7 @@ nav{
     z-index: 100;
 }
 .logo{
-    font-family:'Vladimir Script';
+    font-family: 'Pinyon Script', cursive;
     color:white;
     font-size:1.5rem;
     margin:0;
@@ -174,82 +174,122 @@ nav{
 .hostsContent h2{
     color:black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* highlights */
 #Highlights{
     position:relative;
     background-color: rgba(142,231,255,255);
     height:59.05vw;
 }
-.HighlightsContent{
-position:absolute;
-width:20%;
-top:14%;
-display:flex;
-flex-direction: column;
-left:11%;
-}
-.HighlightsContent p {
-    color: rgb( 150, 111, 51);
-}
 .image1{
 position:absolute;
-width:25%;
-top:44.9%;
+width:34.6%;
+top:50%;
+left:3.8%;
 }
 .image2{
 position:absolute;
-width:15%;
-top:31.6%;
-left:27%;
+width:30%;
+top:8%;
+left:3.8%;
 }
 .image3{
 position:absolute;
-width:20%;
-top:67%;
-left:27%;
+width:17.6%;
+top:29.1%;
+left:36.1%;
+z-index: 100;
 }
 .image4{
 position:absolute;
-width:15%;
-top:45.7%;
-left:44%;
+width:22.7%;
+top:8%;
+left:35%;
 }
 .image5{
 position:absolute;
-width:15%;
-top:67%;
-left:49%;
+width:30%;
+top:54.3%;
+left:41.4%;
 }
 .image6{
 position:absolute;
-width:18%;
-top:20.5%;
-left:44%;
+width:17.6%;
+top:26.6%;
+left:56.5%;
+z-index:100;
 }
 .image7{
     position:absolute;
-    width:8.49%;
-    top:45.7%;
-    left:61%;
+    width:14%;
+    top:8%;
+    left:59.3%;
 }
 .image8{
     position:absolute;
-    width:18%;
-    top:20.5%;
-    left:64%;
+    width:19.6%;
+    top:10%;
+    left:76.5%;
 }
 .image9{
     position:absolute;
-    width:15%;
-    top:0;
-    left:80%;
+    width:19.6%;
+    top:38.1%;
+    left:76.5%;
 }
 .image10{
     position:absolute;
-    width:16%;
-    top:20.5%;
-    left:84%;
+    width:19.6%;
+    top:66%;
+    left:76.5%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* talk to us */
 
 #TalkToUs{
@@ -472,9 +512,34 @@ left:44%;
 /* media queries */
 
 @media (max-width: 1290px){
+
+
+
+
+
+
+
+
+
+
+
     .HighlightsContent{
         left:5%;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .colapsable{
         display:none;
     }
@@ -557,6 +622,19 @@ left:44%;
     }
     }
 @media (max-width: 942px){
+
+
+
+
+
+
+
+
+
+
+
+
+
     .HighlightsContent{
         width:50%;
         top:0%;
@@ -566,6 +644,16 @@ left:44%;
             margin-bottom:5px;
             margin-top:0px;
         }
+
+
+
+
+
+
+
+
+
+
 }
 @media (max-width:810px){
     .gmap_canvas { 
@@ -621,12 +709,42 @@ left:44%;
 .hostsContent p{
     font-size:1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .HighlightsContent  {
     left:4%;
 }
 .HighlightsContent p{
     display:none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .actionsBtn {
     font-size:0.8rem;
     padding: 5px;
@@ -746,6 +864,21 @@ left:44%;
     .hostsContent p{
         font-size:0.5rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .HighlightsContent  {
         left:2%;
     }
@@ -757,6 +890,21 @@ left:44%;
         display:block;
         font-size:0.5rem;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .actionsBtn {
         font-size:0.5rem;
         padding: 3px;
